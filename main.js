@@ -1,5 +1,5 @@
-function solveMeFirst(a, b) {
-  return a + b
+function simpleArraySum(ar) {
+  return ar.reduce((a, b) => a + b)
 }
 
-console.log(solveMeFirst(2, 3))
+console.log(simpleArraySum([1,2,3]))
